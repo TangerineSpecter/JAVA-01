@@ -216,9 +216,17 @@ Code部分，前面的数字表示执行顺序，后面的#3表示调用执行�
 
 2(必做)、自定义一个 Classloader，加载一个 Hello.xlass 文件，执行 hello 方法， 此文件内容是一个 Hello.class 文件所有字节(x=255-x)处理后的文件。文件群里提供。
 
-
+代码：/JAVA-01/test/src/test/JvmClassLoader.java
 
 ---
 
 3(必做)、画一张图，展示 Xmx、Xms、Xmn、Metaspache、DirectMemory、Xss 这些内存参数的关系。
 
+![image](test/src/study/jvm.png)
+
+- xmx:表示最大堆内存大小
+- Xms:表示初始堆内存大小
+- Xmn:表示年轻代大小，分为三个内存池,Eden(新生代)，s0+s1(两个存活区)
+- Metaspache：表示元数据缓存
+- DirectMemory：表示堆外内存
+- xss:表示每个线程大小

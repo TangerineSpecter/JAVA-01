@@ -1,10 +1,15 @@
 学习笔记
 
-[toc]
+## <a id="Getting_Menu"></a> 目录 
+- [开始](#Getting_Menu)
+    - [第一题](#first_question)
+    - [第二题](#second_question)
+    - [第三题](#third_question)
+
 
 第一课作业实践
 ===
-##### 1(可选)、自己写一个简单的 Hello.java，里面需要涉及基本类型，四则运行，if 和 for，然后自己分析一下对应的字节码，有问题群里讨论。
+##### <a id= "first_question"></a> 1、自己写一个简单的 Hello.java，里面需要涉及基本类型，四则运行，if 和 for，然后自己分析一下对应的字节码，有问题群里讨论。
 
 ```java
 
@@ -214,15 +219,15 @@ Code部分，前面的数字表示执行顺序，后面的#3表示调用执行�
 
 ---
 
-2(必做)、自定义一个 Classloader，加载一个 Hello.xlass 文件，执行 hello 方法， 此文件内容是一个 Hello.class 文件所有字节(x=255-x)处理后的文件。文件群里提供。
+##### <a id= "second_question"></a> 2、自定义一个 Classloader，加载一个 Hello.xlass 文件，执行 hello 方法， 此文件内容是一个 Hello.class 文件所有字节(x=255-x)处理后的文件。文件群里提供。
 
-代码：/JAVA-01/test/src/test/JvmClassLoader.java
+[演示代码](/JAVA-01/test/src/test/JvmClassLoader.java)
 
 ---
 
-3(必做)、画一张图，展示 Xmx、Xms、Xmn、Metaspache、DirectMemory、Xss 这些内存参数的关系。
+##### <a id= "third_question"></a> 3、画一张图，展示 Xmx、Xms、Xmn、Metaspache、DirectMemory、Xss 这些内存参数的关系。
 
-![image](test/src/study/jvm.png)
+<img src="../test/src/study/jvm.png">
 
 - xmx:表示最大堆内存大小
 - Xms:表示初始堆内存大小
